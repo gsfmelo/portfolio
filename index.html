@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Geovanna Melo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Geovanna Melo</h1>
+        <nav>
+            <ul class="navegacao-primaria">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+    <section aria-label="Seção Currículo Download Geovanna" class="section-div">
+        <div>
+            <h2>Olá, seja bem-vindo</h2>
+            <h2>ao meu Portfólio!</h2>
+            <p>Conheça um pouco sobre minha trajetória profissional e sobre os meus projetos!</p>
+            <a href="#">Download CV</a>
+        </div>
+        <img src="img/geovannamelo.jpg" alt="Foto Geovanna Melo">
+    </section>
+    <main>
+        <article aria-label="Seção sobre mim" class="sobre">
+            <div id="sobre" class="sobre_titulo">
+                <h1>Sobre Mim</h1>
+                <p>Conheça um pouco sobre mim!</p>
+                <img src="img/hobbie.png" alt="Foto Geovanna Melo">
+                <div class="sobre_conteudo">
+                    <div class="sobre_texto">
+                        <h1>Olá! Eu sou Geovanna Melo</h1>
+                        <p>Estudante de Cinema e Audiovisual e Análise e Desenvolvimento de Sistemas, venho fazendo
+                            transição de carreira para a área de tecnologia. Tenho 23 anos e moro em Olinda, Pernambuco.
+                            <br>
+                            <br>
+                            Cinema é a minha verdadeira paixão, por isso escolhi essa foto para ilustrar! Tenho inglês fluente e adoro aprender línguas. 
+                            Desenvolvimento Back-End têm sido a área que venho estudado mais em tecnologia e também a área que tenho mais afinidade.
+                        </p>
+                    </div>
+                    <div class="sobre_info">
+                        <p><i class="fa-solid fa-location-dot"></i>Localização: Olinda, Pernambuco</p>
+                        <p><i class="fa-sharp fa-solid fa-globe"></i>Línguas: Português e Inglês</p>
+                        <p><i class="fa-solid fa-flag"></i>Nacionalidade: Brasileira</p>
+                        <p><i class="fa-solid fa-envelope"></i>Email: gsfmelo@gmail.com</p>
+
+                    </div>
+                </div>
+
+        </article>
+    </main>
+    <section id="skills" class="skills">
+        <div class="sobre_skills">
+            <h1>Skills</h1>
+            <p>Essas são algumas das minhas habilidades!</p>
+            <img src="img/html.png" alt="Foto Html">
+            <img src="img/css.png" alt="Foto css">
+            <img src="img/js.png" alt="Foto javascript">
+            <img src="img/github.png" alt="Foto github">
+            <img src="img/python.png" alt="Foto python">
+            <img src="img/visual.jpg" alt="Foto visual studio code">
+
+    </section>
+    <main>
+        <section id="projetos" class="projetos">
+            <div class="sobre_projetos">
+                <h1>Projetos</h1>
+                <p>Conheça alguns dos meus projetos!</p>
+
+                <div>
+                    <h2>Projeto de Bicicletaria</h2>
+                    <p>Esse projeto é parte do trabalho final da disciplina de Lógica de Programação na faculdade de
+                        Análise
+                        e Desenvolvimento de Sistemas da UNINTER. Clique no botão ao lado.
+                    </p>
+                    <a href="https://github.com/gsfmelo/Projeto-de-Bicicletaria" target="_blank">Abrir link em uma nova
+                        janela</a>
+
+                </div>
+        </section>
+        <main>
+            <section id="formacao" class="formacao">
+                <div class="sobre_formacao">
+                    <h1>Formação</h1>
+                    <p>Essas são as minhas formações!</p>
+                    <div>
+                        <h2>Curso de Desenvolvimento Back-End - Cubos Academy</h2>
+                        <p>Em andamento - Formação em DEZ/2023
+                        </p>
+                        <h2>Análise e Desenvolvimento de Sistemas - UNINTER</h2>
+                        <p>Em andamento - Formação em 2025
+                        </p>
+                        <h2>Cinema e Audiovisual - UFPE</h2>
+                        <p>Em andamento - Formação em 2024
+                        </p>
+
+                    </div>
+
+
+            </section>
+            <main>
+                <section id="contato" class="contato">
+                    <div class="sobre_contato">
+                        <h1>Contato</h1>
+                        <p>Email: gsfmelo@gmail.com
+                            <br>
+                            Github: https://github.com/gsfmelo
+                            <br>
+                            LinkedIn: https://www.linkedin.com/in/geovanna-melo/
+                        </p>
+                        <form>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </section>
+
+            </main>
+            <script src="script.js"></script>
+</body>
+
+</html>
